@@ -199,6 +199,6 @@ Change `configs/data/scannet_dense_test.yaml` to `configs/data/scannet_default_t
 
 ## Acknowledgements
 
-We would like to express our sincere gratitude to Liu Jia, Wang Bin, Chen Dapeng, Song Hong, Zhang Zengwei, and Huang Nanxuan from Nanjing University of Information Science and Technology for their invaluable support in both the code development and the paper. Their contributions have been crucial in advancing this project, and we greatly appreciate their guidance and collaboration.
+We would like to express our sincere gratitude to Liu Jia, Wang Bin, Chen Dapeng, Li Yong Ze, Gao Peng from Nanjing University of Information Science and Technology for their invaluable support in both the code development and the paper. Their contributions have been crucial in advancing this project, and we greatly appreciate their guidance and collaboration.
 
 >>>>>>> cce9ab7 (first commit)

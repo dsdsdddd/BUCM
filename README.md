@@ -9,7 +9,7 @@ This repository contains the implementation of the monocular depth estimation mo
 
 The model framework is shown in the figure：
 
-<img src="./media/2.jpg" alt="模型框架图" width="1000"/>
+<img src="./media/fig3.jpg" alt="模型框架图" width="1000"/>
 
 
 ### Key Features

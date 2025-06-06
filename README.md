@@ -197,7 +197,8 @@ CUDA_VISIBLE_DEVICES=0 python pc_fusion.py --name HERO_MODEL \
 Change `configs/data/scannet_dense_test.yaml` to `configs/data/scannet_default_test.yaml` to use keyframes only if you don't want to wait too long.
 
 ## Acknowledgements
-
+## Augmented Reality Parts Assembly Training System
+The augmented reality system is developed using Unity3D, with EasyAR and OpenXR for augmented reality functionalities. The detailed process is described in the paper. You can access the virtual parts assembly system we developed via this link:https://pan.baidu.com/s/14JFzyMIO0pZoVglqojqp9A.Network disk extraction code:a5qq.
 We would like to express our sincere gratitude to Liu Jia, Wang Bin, Chen Dapeng, Li Yong Ze, Gao Peng from Nanjing University of Information Science and Technology for their invaluable support in both the code development and the paper. Their contributions have been crucial in advancing this project, and we greatly appreciate their guidance and collaboration.
 
 >>>>>>> cce9ab7 (first commit)

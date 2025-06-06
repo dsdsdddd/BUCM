@@ -1,11 +1,11 @@
 <<<<<<< HEAD
 # BUCM
 =======
-# Multi-view Depth Estimation with Uncertainty Constraints for Virtual-Real Occlusion                                                                                                                              
+# Monocular Depth Estimation Model Based on Uncertainty Constraints and Its Application in Augmented Reality                                                                                                                              
 
 ## Overview
 
-This repository contains the implementation of the multi-view depth estimation model proposed in the paper *"Multi-view Depth Estimation with Uncertainty Constraints for Virtual-Real Occlusion"* . The model addresses occlusion handling in Augmented Reality (AR) applications by improving depth estimation accuracy, particularly at object contours, using uncertainty constraints.
+This repository contains the implementation of the monocular depth estimation model based on uncertainty constraints proposed in the paper “Monocular Depth Estimation Model Based on Uncertainty Constraints and Its Application in Augmented Reality”. The model fuses single-view and multi-view depth estimation techniques to improve depth prediction accuracy and robustness in augmented reality (AR), especially enhancing occlusion handling at object edges through Bayesian uncertainty modeling.
 
 The model framework is shown in the figure：
 
@@ -14,11 +14,10 @@ The model framework is shown in the figure：
 
 ### Key Features
 
-- **Bayesian Convolutional Uncertainty Estimation (BCUE)**: Enhances depth contour accuracy by modeling uncertainty in complex scenes.
-- **Attention Spatial Convolution Fusion (ASCF)**: Combines multi-head self-attention and spatial-channel reconstruction convolution to improve feature extraction.
-- **Depth Edge Padding (DEP)**: An optional post-processing module to refine depth map edges for better contour alignment.
-- **Datasets**: Evaluated on ScanNetV2 and 7Scenes, achieving superior performance in depth estimation and virtual-real occlusion tasks.
-
+- **Fusion of Single-view and Multi-view Depth Estimation**: Enhances multi-view depth cost volumes with features extracted from single-view encoders, substantially improving prediction accuracy in dynamic and complex scenes.
+- **Bayesian Convolutional Uncertainty Estimation (CBM)**: Introduces uncertainty constraints to better model depth uncertainty, improving robustness in occlusion regions.
+- **AR Assembly Training System**: Development of a mobile AR parts assembly training system that leverages the model to achieve precise virtual-real occlusion for interactive component assembly tasks.
+- **Datasets**: Validated on the ScanNet dataset, showing superior performance over several mainstream depth estimation methods and enabling high-precision virtual-real occlusion in AR.
 ### Experimental result diagram.
 
 - ** Depth estimation result diagram.**

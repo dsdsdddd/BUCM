@@ -21,7 +21,7 @@ The model framework is shown in the figure：
 ### Experimental result diagram.
 
 - ** Depth estimation result diagram.**
-<img src="./media/1.jpg" alt="深度图" width="600"/>
+<img src="./media/fig3.jpg" alt="深度图" width="600"/>
 
 - ** Real-virtual occlusion effect diagram.**
 <img src="./media/9.jpg" alt="遮挡图" width="600"/>

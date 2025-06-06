@@ -66,7 +66,6 @@ The model demonstrates excellent performance in depth estimation, effectively ha
 - Python 3.8+
 - Conda (Anaconda or Miniconda)
 - CUDA-enabled GPU (e.g., NVIDIA RTX3090)
-- Optional: Segment Anything Model (SAM) for DEP module.
 
 ### Setup
 
